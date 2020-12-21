@@ -1,0 +1,11 @@
+{
+  "name": "glo-academy-js-intensive-0",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:grafmen9999/glo-academy-js-intensive-0.git",
+  "author": "grafmen <grafmen9999@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+     "test": ""
+  }
+}
