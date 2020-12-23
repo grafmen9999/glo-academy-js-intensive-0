@@ -1,5 +1,5 @@
-import { radioPlayerInit } from './radioPlayer.js';
 import { videoPlayerInit } from './videoPlayer.js';
+import { radioPlayerInit } from './radioPlayer.js';
 import { musicPlayerInit } from './musicPlayer.js';
 
 const playerBtn = document.querySelectorAll('.player-btn');
@@ -13,13 +13,13 @@ const deactivationPlayer = () => {
 };
 
 playerBtn.forEach((btn, index) => {
-    btn.addEventListener('click', (event) => {
+    btn.addEventListener('click', () => {
         deactivationPlayer();
         btn.classList.add('active');
         playerBlock[index].classList.add('active');
     });
 });
 
-radioPlayerInit();
 videoPlayerInit();
+radioPlayerInit();
 musicPlayerInit();
